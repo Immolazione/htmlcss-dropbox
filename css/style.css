@@ -25,6 +25,10 @@
 
 /* UTILITIES */
 
+.posrel {
+    position: relative;
+}
+
 .btn {
     text-decoration: none;
     padding: 10px 20px;
@@ -38,6 +42,10 @@
     border: 1px solid black;
 }
 
+.btn-wide {
+    width: 100%;
+}
+
 .color-white {
     color: white;
 }
@@ -46,8 +54,8 @@
     color: black;
 }
 
-.color-lightgrey {
-    color: lightgrey;
+.color-grey {
+    color: grey;
 }
 
 .text-center {
@@ -70,12 +78,39 @@
     float: right;
 }
 
+.fs-30 {
+    font-size: 30px;
+}
 .fs-20 {
     font-size: 20px;
 }
 
 .fs-18 {
     font-size: 18px;
+}
+
+.fw-normal {
+    font-weight: normal;
+}
+
+.padding-40 {
+    padding: 40px;
+}
+
+.marginb-40 {
+    margin-bottom: 40px;
+}
+
+.marginb-30 {
+    margin-bottom: 30px;
+}
+
+.marginb-20 {
+    margin-bottom: 20px;
+}
+
+.marginb-10 {
+    margin-bottom: 10px;
 }
 /* HEADER */
 
@@ -155,11 +190,11 @@
 
 #tariffes > div > h1[class="tariffes-title"] {
     font-size: 45px;
-    margin-bottom: 30px;
+    margin: 250px 0 40px 0;
 }
 
 .rate-distribution .rate-check {
-    color: blue;
+    color: #0061FF;
     margin-right: 5px;
 }
 .rate-distribution .rate-uncheck {
@@ -168,4 +203,29 @@
 
 .rate-distribution .month-rate {
     margin-right: 20px;
+}
+
+.tariff-col {
+    margin-top: 30px;
+    width: calc(100% / 3);
+    height: 1200px;
+    border: 1px solid lightgrey;
+}
+
+#tariffes .tariff-pool {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid lightgrey;
+}
+
+#tariffes .tariff-pool i {
+    margin-right: 5px;
+}
+
+.tariff-col .tariff-details hr {
+    width: 20%;
+}
+
+.tariff-details .fa-check {
+    color: #0061FF;
 }
