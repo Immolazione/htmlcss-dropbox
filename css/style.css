@@ -25,6 +25,14 @@
 
 /* UTILITIES */
 
+.border-lightgrey {
+    border: 1px solid lightgrey;
+}
+
+.borderbot-lightgrey {
+    border-bottom: 1px solid lightgrey;
+}
+
 .posrel {
     position: relative;
 }
@@ -188,6 +196,8 @@
 
 /* MAIN */
 
+/* COLUMN SECTION */
+
 #tariffes > div > h1[class="tariffes-title"] {
     font-size: 45px;
     margin: 250px 0 40px 0;
@@ -209,7 +219,6 @@
     margin-top: 30px;
     width: calc(100% / 3 - 40px);
     height: 1200px;
-    border: 1px solid lightgrey;
 }
 
 .tariff-col-center {
@@ -219,7 +228,7 @@
 #tariffes .tariff-pool {
     height: 50px;
     line-height: 50px;
-    border-bottom: 1px solid lightgrey;
+
 }
 
 #tariffes .tariff-pool i {
