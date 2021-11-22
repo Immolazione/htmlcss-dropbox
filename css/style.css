@@ -203,12 +203,13 @@
 }
 /* HEADER */
 
-.header-nav {
+header .header-nav {
     height: 100px;
     position: fixed;
     line-height: 100px;
     background-color: white;
     width: 100%;
+    z-index: 1;
 }
 
 .col-nav ul, .col-nav li {
