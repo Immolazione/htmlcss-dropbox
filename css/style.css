@@ -37,6 +37,10 @@
     background-color: #61082B;
 }
 
+.color-bordeaux {
+    color: #61082B;
+}
+
 .bgc-darklightblue {
     background-color: #0093CE;
 }
@@ -65,6 +69,10 @@
     width: 100%;
 }
 
+.w-65 {
+    width: 65%;
+}
+
 .w-60 {
     width: 60%;
 }
@@ -75,6 +83,10 @@
 
 .w-40 {
     width: 40%;
+}
+
+.w-35 {
+    width: 35%;
 }
 
 .w-33 {
@@ -115,7 +127,7 @@
     transition: filter .5s;
 }
 
-.btn:hover {
+.btn-blue:hover {
     filter: brightness(1.8);
 }
 
@@ -366,4 +378,18 @@ header .header-nav {
 
 .partner-card .card-center {
     height: 559.16px;
+}
+
+.partners > .bgc-lightblue {
+    height: 400px;
+}
+
+.bgc-lightblue > .clearfix > .fl-left {
+    height: 400px;
+}
+
+.bgc-lightblue .fl-left h1, .bgc-lightblue .fl-left a {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
