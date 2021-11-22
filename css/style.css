@@ -355,3 +355,7 @@ header .header-nav {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.partner-card .card-center {
+    height: 559.16px;
+}
