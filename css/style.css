@@ -94,6 +94,9 @@
     width: 100%;
 }
 
+.w-90 {
+    width: 90%;
+}
 .w-65 {
     width: 65%;
 }
@@ -259,6 +262,10 @@
 .marginb-10 {
     margin-bottom: 10px;
 }
+
+.li-style-none {
+    list-style: none;
+} 
 /* HEADER */
 
 header .header-nav {
@@ -362,6 +369,10 @@ header .header-nav {
 
 .tariff-details .fa-check {
     color: #0061FF;
+}
+
+.tariff-details i {
+    margin: 5px 5px 0 0;
 }
 
 /*<h3 class="marginb-30 fw-normal fs-18"><i class="fas fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert</h3>
