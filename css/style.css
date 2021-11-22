@@ -89,6 +89,10 @@
     width: 25%;
 }
 
+.w-15 {
+    width: 15%;
+}
+
 .border-lightgrey {
     border: 1px solid lightgrey;
 }
@@ -174,6 +178,10 @@
     font-weight: normal;
 }
 
+.font-style-normal {
+    font-style: normal;
+}
+
 .padding-40 {
     padding: 40px;
 }
@@ -184,6 +192,10 @@
 
 .marginb-80 {
     margin-bottom: 80px;
+}
+
+.marginb-60 {
+    margin-bottom: 60px;
 }
 
 .marginb-40 {
@@ -308,10 +320,6 @@ header .header-nav {
 
 #tariffes .tariff-pool i {
     margin-right: 5px;
-}
-
-.tariff-col .tariff-details hr {
-    width: 20%;
 }
 
 .tariff-details .fa-check {
