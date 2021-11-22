@@ -175,6 +175,10 @@
     font-size: 48px;
 }
 
+.fs-35 {
+    font-size: 35px;
+}
+
 .fs-30 {
     font-size: 30px;
 }
@@ -200,6 +204,10 @@
 
 .padding-20 {
     padding: 20px;
+}
+
+.marginb-200 {
+    margin-bottom: 200px;
 }
 
 .marginb-80 {
@@ -287,10 +295,6 @@ header .header-nav {
     height: 500px;
 }
 
-.jumbotron .first-col p[class="fs-20"] {
-    margin-bottom: 40px;
-}
-
 .jumbotron .first-col p[class="fs-18"] {
     margin: 20px 0 30px 0;
 }
@@ -298,10 +302,6 @@ header .header-nav {
 /* MAIN */
 
 /* COLUMN SECTION */
-
-#tariffes > h1[class*="tariffes-title"] {
-    margin: 200px 0 40px 0;
-}
 
 .rate-distribution .rate-check {
     color: #0061FF;
@@ -392,4 +392,10 @@ header .header-nav {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+
+/* FAQ */
+
+.faq > div {
+    line-height: 100px;
 }
