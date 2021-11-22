@@ -392,6 +392,12 @@ header .header-nav {
 
 .cube {
     height: 279.59px;
+    border: 10px solid transparent;
+    transition: border-color .5s;
+}
+
+.cube:hover {
+    border-color: rgba(255, 255, 255, 0.4);
 }
 
 .cube > img {
