@@ -25,12 +25,68 @@
 
 /* UTILITIES */
 
+.bgc-lightblue {
+    background-color: #B4D0E7;
+}
+
+.bgc-greenmatcha {
+    background-color: #A2D39B;
+}
+
+.bgc-bordeaux {
+    background-color: #61082B;
+}
+
+.bgc-darklightblue {
+    background-color: #0093CE;
+}
+
+.bgc-vibrantred {
+    background-color: #FF1C1C;
+}
+
+.bgc-red {
+    background-color: #D5001F;
+}
+
+.bgc-blue {
+    background-color: #0D2481;
+}
+
+.bgc-yellow {
+    background-color: #FFD830;
+}
+
+.bgc-nearlywhite {
+    background-color: #F5F5F5;
+}
+
 .w-100 {
     width: 100%;
 }
 
+.w-60 {
+    width: 60%;
+}
+
 .w-50 {
     width: 50%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-33 {
+    width: 33%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-25 {
+    width: 25%;
 }
 
 .border-lightgrey {
@@ -52,6 +108,11 @@
 
 .btn-blue {
     background-color: #0061FF;
+    transition: filter .5s;
+}
+
+.btn:hover {
+    filter: brightness(1.8);
 }
 
 .btn-white {
@@ -92,6 +153,10 @@
 
 .fl-right {
     float: right;
+}
+
+.fs-48 {
+    font-size: 48px;
 }
 
 .fs-30 {
@@ -172,7 +237,6 @@
 
 .header-main {
     height: 900px;
-    background-color: #B4D0E7;
     padding-top: 200px;
 }
 
@@ -206,17 +270,12 @@
     margin: 20px 0 30px 0;
 }
 
-.jumbotron .first-col i {
-    font-size: 45px;
-}
-
 /* MAIN */
 
 /* COLUMN SECTION */
 
-#tariffes > div > h1[class="tariffes-title"] {
-    font-size: 45px;
-    margin: 250px 0 40px 0;
+#tariffes > h1[class*="tariffes-title"] {
+    margin: 200px 0 40px 0;
 }
 
 .rate-distribution .rate-check {
@@ -241,10 +300,9 @@
     margin: 30px 60px;
 }
 
-#tariffes .tariff-pool {
+#tariffes .tariff-pool, .under-offers > h3 {
     height: 50px;
     line-height: 50px;
-
 }
 
 #tariffes .tariff-pool i {
@@ -279,10 +337,20 @@
 
 /* CARDS */
 
-.cards-title {
-    font-size: 48px;
-}
-
 .card {
     width: calc(100% / 3);
+}
+
+/* PARTNER CARDS */
+
+.cube {
+    height: 279.59px;
+}
+
+.cube > img {
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
