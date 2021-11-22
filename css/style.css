@@ -306,7 +306,7 @@ header .header-nav {
     padding-top: 200px;
 }
 
-.header-main .container-header > h1 {
+.header-main .container-header > h2 {
     font-size: 85px;
 }
 
@@ -433,7 +433,7 @@ section .bgc-lightblue > .clearfix > .fl-left {
     height: 400px;
 }
 
-section .bgc-lightblue .fl-left h1, section .bgc-lightblue .fl-left a {
+section .bgc-lightblue .fl-left h2, section .bgc-lightblue .fl-left a {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
