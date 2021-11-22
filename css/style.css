@@ -249,3 +249,12 @@
 <h3 class="marginb-30 fw-normal fs-18"><i class="fas fa-check"></i> Filigrana documento</h3>
 <h3 class="marginb-30 fw-normal fs-18"><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</h3>*/
 
+/* UNDER COLUMN */
+
+.under-offers .clearfix {
+    padding: 40px 40px 0 40px;
+}
+
+.under-offers .under-offers-details {
+    padding: 20px 40px 0 40px;
+}
