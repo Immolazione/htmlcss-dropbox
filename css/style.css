@@ -371,8 +371,8 @@ header .header-nav {
     color: #0061FF;
 }
 
-.tariff-details i {
-    margin: 5px 5px 0 0;
+.tariff-details > i {
+    margin: 5px 10px 0 0;
 }
 
 
