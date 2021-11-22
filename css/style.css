@@ -25,6 +25,14 @@
 
 /* UTILITIES */
 
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
 .border-lightgrey {
     border: 1px solid lightgrey;
 }
@@ -103,6 +111,10 @@
 
 .padding-40 {
     padding: 40px;
+}
+
+.marginb-80 {
+    margin-bottom: 80px;
 }
 
 .marginb-40 {
@@ -257,4 +269,16 @@
 
 .under-offers .under-offers-details {
     padding: 20px 40px 0 40px;
+}
+
+/* PARTNER FIND */
+
+/* CARDS */
+
+.cards-title {
+    font-size: 48px;
+}
+
+.card {
+    width: calc(100% / 3);
 }
