@@ -340,6 +340,7 @@ header .header-nav {
     color: #0061FF;
     margin-right: 5px;
 }
+
 .rate-distribution .rate-uncheck {
     margin-right: 5px;
 }
@@ -358,21 +359,47 @@ header .header-nav {
     margin: 30px 60px;
 }
 
-#tariffes .tariff-pool, .under-offers > h3 {
-    height: 50px;
-    line-height: 50px;
+.tariff-col .tariff-details .perks li {
+    text-indent: -22px;
+    padding-left: 20px;
 }
 
-#tariffes .tariff-pool i {
-    margin-right: 5px;
+.tariff-col .tariff-details .important-details li {
+    text-indent: -22px;
+    padding-left: 20px;
 }
 
-.tariff-details .fa-check {
+.tariff-col .tariff-details .perks .user:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+}
+.tariff-col .tariff-details .perks .folder:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f07b";
+}
+.tariff-col .tariff-details .perks .pencil:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f303";
+}
+.tariff-col .tariff-details .perks .smile:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f118";
+}
+
+.tariff-col .tariff-details .important-details .check:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
     color: #0061FF;
 }
 
-.tariff-details > i {
-    margin: 5px 10px 0 0;
+#tariffes .tariff-pool, .under-offers > h3 {
+    height: 50px;
+    line-height: 50px;
 }
 
 /* UNDER COLUMN */
@@ -396,7 +423,7 @@ header .header-nav {
 /* PARTNER CARDS */
 
 .cube {
-    height: 279.59px;
+    height: calc(100vw / 10 * 1.5);
     border: 10px solid transparent;
     transition: border-color .5s;
 }
@@ -414,7 +441,7 @@ header .header-nav {
 }
 
 .partner-card .card-center {
-    height: 559.16px;
+    height: calc(100vw / 10 * 3);
 }
 
 .partners > .bgc-lightblue {
